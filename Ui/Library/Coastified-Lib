@@ -955,7 +955,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 			Value.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Value.TextSize = 14.000
 			Value.TextTransparency = 0
-			Value.TextXAlignment = Enum.TextXAlignment.Center
+			Value.TextXAlignment = Enum.TextXAlignment.Left
 
 			Value.Changed:Connect(function(ep)
 				if ep then
